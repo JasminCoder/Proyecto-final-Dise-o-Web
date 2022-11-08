@@ -1,0 +1,182 @@
+<Html>
+    <!DOCTYPE html>
+    <html lang="es">
+    <Head>
+        <title>Información</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="flexslider.css" type="text/css"> <!--llamamos a nuestro archivo .CSS requerido por flexslider-->
+
+        <link rel="stylesheet" type="text/css" href="pagmenu.css">   <!--llamamos a nuestro archivo css, lo hago yo-->
+
+        <!--llamamos a las funciones ajax de jquery de javascript, son librerias que estan alojadas
+            en internet y haciendo un link referenciandolas las puedo usar.-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> <!--llamamos a nuestro codigo Ajax para el efecto-->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        <!--llamamos a nuestro codigo del efecto Flexsilder.js ques esta en la carpeta js-->
+        <script src="js/jquery.flexslider.js"></script>  
+
+        <!--llamamos a una funcion script  flexslider que nos permite sobreponer las 3 fotos en 1 sola, 
+            es decir superposicion de fotos,  -->
+        <script type="text/javascript" charset="utf-8">  
+            $(window).load(function() {
+                $('.flexslider').flexslider({     
+                    touch: true,
+                    pauseOnAction: false,
+                    pauseOnHover: false,
+                });
+            });
+        </script>	
+        <!--todo las rutinas y cargas anteriores se hacen en el Head ya que es lo primero que
+        carga el navegador y despues el Body, por tanto la instrucción windows.load(funcion)
+        una vez que se cargue todo el contenido se ejecuta la instrucción windows.load
+        colocando el efecto en pantalla-->
+        
+        <!-- tipografía Tangerine -->
+        <link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
+    </Head>
+
+    <body>
+        <center> <!--barra superior, com logo-->
+            <table id="encabezado"  > 
+                <tr>
+                    <td ROWSPAN=2><a href="file:///C:/Users/Jas/Documents/FER%20web/Paginaprincipal.html"><img src="fotos/logo fer.png" width="160" height="115" alt="Logo Peluqueria" align="left" ></a></td>
+                    <td rowspan=2 align="right" >Looks | Colorimetria | Tendencias | Cuidado del Cabello        </td> 
+                </tr>
+            </table>
+        </center>
+
+        <!--menu principal-->
+        <div class="nav">
+            <ul class="Menunav"> 
+                <li><a href="">Tecnicas Color</a>
+                    <ul>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/Balayage.html">Balayage</a></li>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/babyligths.html">Babyligths</a></li>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/contouring.html">Contouring</a></li>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/Iluminacion.html">Iluminación</a></li>
+                    </ul>
+                </li>    
+
+                <li><a href="">Alisados</a> 
+                    <ul>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/biomolecular.html">Biomolecular</a></li>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/suavefuerte.html">Suave/Fuerte</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="">Cuidado del Cabello</a>
+                    <ul>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/Keratina.html">Keratina</a></li>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/Botox.html">Botox</a></li>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/Oroliquido.html">Oro Liquido</a></li>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/MetodoCurly.html">Metodo Curly</a></li>        
+                    </ul>    
+                </li>
+
+                <li><a href="">Rostro</a>
+                    <ul>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/Lifting.html">Lifting de Pestañas</a></li>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/Perfilado.html">Perfilado Cejas</a></li>
+                    </ul>
+                </li>     
+
+                <li><a href="">Uñas</a>
+                    <ul>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/U%C3%B1as.html">Manos/Pies</a></li>        
+                    </ul>
+                </li>
+
+                <li><a href="">Productos</a>
+                    <ul>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/shampyacond.html">Shampoo y Acondicionadores</a></li>
+                        <li><a href="#">Aceites y Brillos</a></li>
+                        <li><a href="#">Cremas de peinar y Desenredantes</a></li>
+                        <li><a href="#">Mascaras y Protectores Termicos</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="">Información</a>
+                    <ul>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/Informaci%C3%B3n.html">Turnos/Medios de pago</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="">Contacto</a>
+                    <ul>
+                        <li><a href="file:///C:/Users/Jas/Documents/FER%20web/Formulario.html">Formulario</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <p><h1>Turnos</h1></p>
+            
+        <table id="presentacion">
+            <tr>
+                <td>
+                    <P>
+                        Atendemos de Martes a Sabado de 10:00am a 19:00pm. 
+                        <br>
+                        Para agendar turno, podés hacerlo a través de nuestro whatsapp al numero +54 9 3489680614. 
+                        <br>
+                        O también podes seguir los enlace directo a mi chat de wsp que 
+                        <br>
+                        encontrarás en nuestro inicio o al pie de esta pagina.
+                        <br>
+                        <br>
+                        Estamos ubicados en Castilla #314. Campana, Buenos Aires.
+                        <br>
+                        <br>
+                        <p><h1>Medios de pago</h1></p>
+                        <br>
+                        <br>
+                        Podés pagar por el medio que más te acomode, aceptamos tarjetas de crédito, débito, efectivo y mercado pago. 
+                    </P>
+                    <br>
+                    <br> 
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        
+        <center><table id="linea" width="70%" border="2" bordercolor="#E08283"></table></center><!--dibujamos un linea-->
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <!--boton volver-->
+        <table id="volver"  >
+            <tr>
+                <th align="center"> <a href="file:///C:/Users/Jas/Documents/FER%20web/Paginaprincipal.html" style="color: black;"   >  Volver a Inicio  </a></th>
+            </tr>
+        </table>
+        <br>
+        <br>
+
+        
+        <!--barra horario y enlace wsp--> 
+        <table id="barraturnos2"  >
+            <tr>
+                <th align="center" bgcolor="ccccc"  >Atendemos de Martes a Sábado de 10 a 19 hrs</th>  
+                <td align="center" bgcolor="999999" ><a href="https://api.whatsapp.com/send?phone=[][]" style="color: #FFFFFF;" target="_blank" >Reservá tu turno por whatsapp !<img src="fotos/Whatsapp.png" width="84" height="34" aling="right" alt=""></a></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+
+        <!--pie pagina-->
+        <table id="pie1">
+            <tr>
+                <td align="center"
+                ><img src="fotos/icono-ubicacion.jpg" width="30" height="30" alt="">Visitános en Castilla #314. Campana. Bs.As.
+                </td>  
+            </tr>
+        </table>
+
+    </body>
+</html>

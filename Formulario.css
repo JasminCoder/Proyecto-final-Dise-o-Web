@@ -1,0 +1,137 @@
+h1{
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    margin-top: 0;
+    font-family: tangerine;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    text-align: center;
+    color: #000;
+}
+
+
+form{            /* definimos caracteristicas para el formulario en general    */
+    width:35%;   /* definimos un ancho de 50% de pantalla  */
+    border:3px solid #ccc;   /* agregaos un borde solido   */
+    margin-left: 410px;
+    padding:15px;
+}
+
+
+label{    /* definimos para los label tipo y tamaño defuente  */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+input, textarea{             /* esto incluye que se apliquen los estilos al textarea */
+    margin-bottom: 20px;     /*permite separar los input */
+    width: 100%;
+    padding: 10px;           /* es padding agrega un espacio dentro de los text o la caja */
+    border: 1px solid #ececea;
+}
+
+
+input:focus{ /* focus nos permite ver cuando un usario este seleccionando un input */
+    border: 5px solid #6c17f5; /* permite cambiar el color del borde del text */
+    background:  #f3f2c7 ;
+}
+
+
+textarea{  
+    /* permite definir si se va a poder cambiar el tamaño */
+    /* resize:horizontal; horizontal indica que solo se puede ampliar horizontalmente, no vertical     */
+    /* Resize:both, permite mover horizontal y vertical, viene por defecto */
+    /* Resize:vertical, solo se agranda de manera vertical */
+    resize: vertical;
+    max-height: 200px;      /* con max le indicamos el maximo que puede agrandarse hacia abajo */
+    min-height: 100px;      /* indicamos el minimo de tamaño que puede contraerse */
+    background:  #f5f5f3 ;
+}
+
+
+.radio{        /* llamamos a la clase radio  */
+    color:rgb(7, 7, 7);  /* color de la fuente */      
+}
+
+
+.fecha{        /* llamamos a la clase fecha  */
+    color:rgb(119, 57, 235);  /* color de la fuente */      
+}
+
+
+/* aplicamos efectos mas avanzados al boton submit */
+input[type="submit"]
+{
+    margin-bottom: 0%;
+    background: rgb(226, 168, 168) ;
+    color:#fff;           /* color de la fuente del boton */
+    font-size: 20px;        /* tamaño de la fuente del boton */
+    border:none;            /* le quitamos el borde al boton */
+}
+
+
+/* efectos mas avazados al boton submit*/
+input[type="submit"]:hover   /* hover para cuando pasemos el mouse sobre el boton */
+{     
+    background: rgb(202, 131, 146)  ;    /* al pasar el mouse cambia a este color */
+    cursor: pointer;            /* cambia el puntero del mouse a manito */
+}
+
+
+input[type="reset"]
+{
+    margin-bottom: 0%;
+    background: rgb(226, 168, 168) ;
+    color:#fff;           /* color de la fuente del boton */
+    font-size: 20px;        /* tamaño de la fuente del boton */
+    border:none;            /* le quitamos el borde al boton */
+}
+
+
+/* aplicamos efectos mas avanzados al boton submit */
+input[type="reset"]:hover{     /* hover para cuando pasemos el mouse sobre el boton */
+
+    background: rgb(202, 131, 146)  ;    /* al pasar el mouse cambia a este color */
+    cursor: pointer;            /* cambia el puntero del mouse a manito */
+}
+
+
+#volver{ 
+    width: 10%;
+    height: 7%;
+    border-radius: 0.5em;
+    text-align: center;
+    margin: auto;
+    background: rgb(226, 168, 168) ;
+    font-family: tangerine;
+    font-size: 25;
+}
+
+
+#barraturnos2{
+    text-align: center;
+    width: 90%;
+    height: 7%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    color: #FFFFFF;
+}
+
+
+#pie1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(226, 168, 168) ;
+    font-size: 16;
+}
